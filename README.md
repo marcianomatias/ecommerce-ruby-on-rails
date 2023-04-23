@@ -16,8 +16,12 @@ To run this application, you need to have the following system dependencies inst
 
 * Configuration
 Clone the repository and run the following command to install the dependencies:
-'''Ruby
+
+```ruby
 bundle install
+```
+'''Ruby
+
 '''
 
 
