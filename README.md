@@ -22,7 +22,7 @@ bundle install
 ```
 * Database creation
 . Postgresql
-``ruby
+```ruby
 rails db:create
 ```
 * Database initialization
@@ -33,11 +33,11 @@ rails db:migrate
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-.To deploy the application to a production environment, follow these steps:
-1 - Make sure the system dependencies are installed on the server.
-2 - Clone the repository to the server.
-3 - Run the bundle install command to install dependencies.
-4 - Configure the necessary environment variables.
-5 - Run the rails db:migrate command to initialize the database.
-6 - Start the application server with the ``` rails s ``` command.
+To deploy the application to a production environment, follow these steps:
+1. Make sure the system dependencies are installed on the server.
+2. Clone the repository to the server.
+3. Run the bundle install command to install dependencies.
+4. Configure the necessary environment variables.
+5. Run the rails db:migrate command to initialize the database.
+6. Start the application server with the ``` rails s ``` command.
 # ecommerce-ruby-on-rails
